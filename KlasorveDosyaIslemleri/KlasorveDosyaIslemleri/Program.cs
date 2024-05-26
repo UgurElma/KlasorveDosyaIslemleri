@@ -94,17 +94,19 @@ class OperationFolderFiles
     {
         if (klasorYolu == string.Empty)
             return;
+        string mesaj = string.Empty;
         if (!Directory.Exists(klasorYolu))
             Directory.CreateDirectory(klasorYolu);
         else
-            Console.WriteLine("Uygulama işleme hazır durumdadır.");
-        Console.Write("Devam etmek için klavyeden bir tuşa basınız!");
+            mesaj = "Uygulama işleme hazır durumdadır.";
+        Console.Write(mesaj + "Devam etmek için klavyeden bir tuşa basınız!");
         Console.ReadKey();
     }
     public void DeleteFolder(string klasorYolu)
     {
         if (klasorYolu == string.Empty)
             return;
+        string mesaj = string.Empty;
         if (Directory.Exists(klasorYolu))
         {
             try
@@ -114,14 +116,15 @@ class OperationFolderFiles
             catch (Exception ex) { Console.WriteLine(ex.Message); }
         }
         else
-            Console.WriteLine("Klasör bulunamadı!");
-        Console.Write("Devam etmek için klavyeden bir tuşa basınız!");
+            mesaj = "Klasör bulunamadı!";
+        Console.Write(mesaj + "Devam etmek için klavyeden bir tuşa basınız!");
         Console.ReadKey();
     }
     public void FindFolder(string klasorYolu)
     {
         if (klasorYolu == string.Empty)
             return;
+        string mesaj = string.Empty;
         if (Directory.Exists(klasorYolu))
         {
             DirectoryInfo directoryInfo = new DirectoryInfo(klasorYolu);
@@ -129,9 +132,9 @@ class OperationFolderFiles
         }
         else
         {
-            Console.WriteLine("Klasör bulunamadı!");
+            mesaj = "Klasör bulunamadı!";
         }
-        Console.Write("Devam etmek için klavyeden bir tuşa basınız!");
+        Console.Write(mesaj + "Devam etmek için klavyeden bir tuşa basınız!");
         Console.ReadKey();
     }
 
@@ -139,17 +142,19 @@ class OperationFolderFiles
     {
         if (dosyaYolu == string.Empty)
             return;
+        string mesaj = string.Empty;
         if (!File.Exists(dosyaYolu))
             File.Create(dosyaYolu);
         else
-            Console.WriteLine("Uygulama işleme hazır durumdadır.");
-        Console.Write("Devam etmek için klavyeden bir tuşa basınız!");
+            mesaj = "Uygulama işleme hazır durumdadır.";
+        Console.Write(mesaj + "Devam etmek için klavyeden bir tuşa basınız!");
         Console.ReadKey();
     }
     public void DeleteFile(string dosyaYolu)
     {
         if (dosyaYolu == string.Empty)
             return;
+        string mesaj = string.Empty;
         if (File.Exists(dosyaYolu))
         {
             try
@@ -159,14 +164,15 @@ class OperationFolderFiles
             catch (Exception ex) { Console.WriteLine(ex.Message); }
         }
         else
-            Console.WriteLine("Dosya bulunamadı!");
-        Console.Write("Devam etmek için klavyeden bir tuşa basınız!");
+            mesaj = "Dosya bulunamadı!";
+        Console.Write(mesaj + "Devam etmek için klavyeden bir tuşa basınız!");
         Console.ReadKey();
     }
     public void FindFile(string dosyaYolu)
     {
         if (dosyaYolu == string.Empty)
             return;
+        string mesaj = string.Empty;
         if (File.Exists(dosyaYolu))
         {
             FileInfo fileInfo = new FileInfo(dosyaYolu);
@@ -174,9 +180,9 @@ class OperationFolderFiles
         }
         else
         {
-            Console.WriteLine("Dosya bulunamadı!");
+            mesaj = "Dosya bulunamadı!";
         }
-        Console.Write("Devam etmek için klavyeden bir tuşa basınız!");
+        Console.Write(mesaj + "Devam etmek için klavyeden bir tuşa basınız!");
         Console.ReadKey();
     }
     public void TextWriterToFile(string dosyaYolu)
