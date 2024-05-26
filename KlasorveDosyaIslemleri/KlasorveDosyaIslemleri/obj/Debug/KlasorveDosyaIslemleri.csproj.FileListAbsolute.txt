@@ -1,0 +1,7 @@
+C:\Users\elmau\OneDrive\Belgeler\GitHub\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\bin\Debug\KlasorveDosyaIslemleri.exe.config
+C:\Users\elmau\OneDrive\Belgeler\GitHub\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\bin\Debug\KlasorveDosyaIslemleri.exe
+C:\Users\elmau\OneDrive\Belgeler\GitHub\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\bin\Debug\KlasorveDosyaIslemleri.pdb
+C:\Users\elmau\OneDrive\Belgeler\GitHub\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\obj\Debug\KlasorveDosyaIslemleri.csproj.AssemblyReference.cache
+C:\Users\elmau\OneDrive\Belgeler\GitHub\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\obj\Debug\KlasorveDosyaIslemleri.csproj.CoreCompileInputs.cache
+C:\Users\elmau\OneDrive\Belgeler\GitHub\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\obj\Debug\KlasorveDosyaIslemleri.exe
+C:\Users\elmau\OneDrive\Belgeler\GitHub\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\KlasorveDosyaIslemleri\obj\Debug\KlasorveDosyaIslemleri.pdb
